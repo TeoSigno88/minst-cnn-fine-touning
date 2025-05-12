@@ -1,0 +1,24 @@
+# Evita di caricare modelli salvati localmente
+*.h5
+*.keras
+
+# File temporanei / cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora tutti i .png tranne quelli in touning_images
+*.png
+!touning_images/
+!touning_images/*.png
